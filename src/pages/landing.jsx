@@ -30,7 +30,6 @@ import faqs from "../data/faq.json";
 import { cn } from "@/lib/utils";
 import Marquee from "@/components/ui/marquee";
 import { MarqueeDemo } from "@/components/Marque_text";
-import IMAGES from "../images/IMAGES";
 
 const Landing = () => {
   return (
@@ -46,7 +45,7 @@ const Landing = () => {
           <div className="relative flex z-30 bg-cover items-center justify-center w-full">
               {/* Background Image */}
               <img
-                src={IMAGES.image7}
+                src="https://res.cloudinary.com/doebltz68/image/upload/v1744363931/pg-bg_nfcvsi.jpg"
                 alt="Holmes"
                 className="relative min-h-[60vh] w-full mx-10 rounded-2xl bg-cover bg-center"
               />

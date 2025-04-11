@@ -1,7 +1,6 @@
 import React from "react";
 import Images from "@/Images/Images";
 import { Image } from "lucide-react";
-import IMAGES from "../Images/Images";
 import InteractiveHoverButton from "@/components/ui/interactive-hover-button";
 import { Link } from "react-router-dom";
 import Footer from "@/components/Footer";
@@ -57,7 +56,7 @@ export function AboutUs() {
         {/* Creator 1 */}
         <div className="bg-background md:shadow-2xl flex flex-col md:flex-row items-center rounded-3xl">
           <img
-            src={IMAGES.image1}
+            src="https://res.cloudinary.com/doebltz68/image/upload/v1744363939/yadnesh_czbks2.jpg"
             alt="Yadnesh"
             className="w-full md:w-96 h-96 rounded-t-3xl md:rounded-l-3xl md:rounded-tr-none object-cover"
           />
@@ -77,7 +76,7 @@ export function AboutUs() {
         {/* Creator 2 */}
         <div className="bg-background md:shadow-2xl flex flex-col md:flex-row-reverse items-center rounded-3xl">
           <img
-            src={IMAGES.image2}
+            src="https://res.cloudinary.com/doebltz68/image/upload/v1744363943/atharva_odkjnf.png"
             alt="Atharva"
             className="w-full md:w-96 h-96 rounded-t-3xl md:rounded-r-3xl md:rounded-tl-none object-cover"
           />
@@ -97,7 +96,7 @@ export function AboutUs() {
         {/* Creator 3 */}
         <div className="bg-background md:shadow-2xl flex flex-col md:flex-row items-center rounded-3xl">
           <img
-            src={IMAGES.image3}
+            src="https://res.cloudinary.com/doebltz68/image/upload/v1744363941/om_rr7dt6.jpg"
             alt="Om"
             className="w-full md:w-96 h-96 rounded-t-3xl md:rounded-l-3xl md:rounded-tr-none object-cover"
           />
