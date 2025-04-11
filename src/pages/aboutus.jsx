@@ -1,5 +1,4 @@
 import React from "react";
-import Images from "@/Images/Images";
 import { Image } from "lucide-react";
 import InteractiveHoverButton from "@/components/ui/interactive-hover-button";
 import { Link } from "react-router-dom";
